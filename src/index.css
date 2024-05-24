@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+input::-ms-input-placeholder { /* Edge 12 -18 */
+    color: black;
+  }
+  
